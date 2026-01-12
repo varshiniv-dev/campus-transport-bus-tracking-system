@@ -1,11 +1,15 @@
 🚍 Campus Transport & Bus Tracking System
+
 ---
+
 Project Overview-
 
 The Campus Transport & Bus Tracking System is a web-based application developed using Python and Flask to monitor and manage campus bus transportation in real time.
 The system provides live bus location updates, traffic condition monitoring, delay prediction, and simulation of emergency scenarios such as overspeeding, accidents, and bus breakdowns.
 This project is designed to demonstrate how modern software systems can improve campus safety, efficiency, and transport management, while being scalable for real-world deployment with actual GPS and sensor data.
+
 --- 
+
 #Objectives-
 
 To track campus buses using simulated real-time GPS data
@@ -13,7 +17,9 @@ To monitor traffic conditions and predict delays
 To detect and simulate unsafe or emergency events
 To provide a centralized dashboard for transport monitoring
 To design a modular and scalable backend architecture
+
 ---
+
 #Key Features-
 
 🚍 Live Bus Tracking (Latitude & Longitude simulation)
@@ -26,7 +32,9 @@ Bus breakdown handling
 📊 Dashboard Interface for monitoring system status
 🧪 Simulation Endpoints for controlled demonstrations
 🧱 Modular backend design using services
+
 ---
+
 #Technologies Used-
 
 Programming Language: Python 3
@@ -34,7 +42,9 @@ Web Framework: Flask
 Frontend: HTML, CSS (Jinja Templates)
 Database: SQLite (campus.db)
 IDE: Visual Studio Code
+
 ---
+
 #Project Structure
 
 CAMPUS_TRANSPORT_SYSTEM/
@@ -75,7 +85,9 @@ CAMPUS_TRANSPORT_SYSTEM/
 │
 └── static/                   # Static files
     └── style.css             # CSS styling
+
 ---
+
 #How the System Works?
 
 The Flask server is started using app.py
@@ -84,7 +96,9 @@ Traffic service generates traffic conditions dynamically
 Delay predictor calculates expected delays based on traffic
 Flask routes render data on the dashboard using HTML templates
 Simulation routes trigger alerts for emergency scenarios
+
 ---
+
 #How to Run the Project?
 
 1️⃣ Install Dependencies
@@ -95,7 +109,9 @@ Bash:
 python app.py
 3️⃣ Open in Browser
 http://127.0.0.1:5000/
+
 ---
+
 #Simulation Routes
 
 These routes simulate real-world transport incidents:
@@ -105,20 +121,26 @@ Accident Detection
 /simulate/accident
 Bus Breakdown
 /simulate/breakdown
+
 ---
+
 #Dashboard Features
 
 Displays live bus coordinates
 Shows current traffic condition
 Indicates system operational status
 Provides links for emergency simulations
+
 ---
+
 #Security & Safety Considerations
 
 Modular service-based architecture for better isolation
 Simulation-based alerts to prevent false real-world triggers
 Designed for future integration with campus security systems
+
 ---
+
 #Future Enhancements-
 
 Integration with real GPS devices
@@ -127,7 +149,9 @@ SMS / Email notifications for alerts
 Driver behavior analytics using IoT sensors
 Admin and user authentication system
 Mobile application support
+
 ---
+
 #Learning Outcomes-
 
 Practical understanding of Flask framework
@@ -135,14 +159,18 @@ Modular Python application design
 Backend–Frontend integration
 Debugging real-time runtime errors
 Web-based system deployment fundamentals
+
 ---
+
 #Author-
 
 Project Title: Campus Transport & Bus Tracking System
 Developed By: Varshini V
 Department: Computer Science & Engineering
 Project Type: Major Project
+
 ---
+
 #Conclusion
 
 This project demonstrates a practical approach to solving real-world campus transportation challenges using Python and Flask. The system is scalable, modular, and designed with future real-time integrations in mind, making it suitable for both academic and real-world applications.
