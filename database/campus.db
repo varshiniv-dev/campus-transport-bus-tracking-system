@@ -1,0 +1,35 @@
+-- Bus table
+CREATE TABLE bus (
+    bus_id INTEGER PRIMARY KEY,
+    route_id INTEGER,
+    driver_id INTEGER,
+    status TEXT,
+    speed INTEGER,
+    latitude REAL,
+    longitude REAL
+);
+
+-- Route table
+CREATE TABLE route (
+    route_id INTEGER PRIMARY KEY,
+    route_name TEXT,
+    stops TEXT
+);
+
+-- Driver table
+CREATE TABLE driver (
+    driver_id INTEGER PRIMARY KEY,
+    name TEXT,
+    violations INTEGER
+);
+
+-- Incident table
+CREATE TABLE incident (
+    incident_id INTEGER PRIMARY KEY AUTOINCREMENT,
+    bus_id INTEGER,
+    type TEXT,
+    description TEXT,
+    timestamp TEXT
+);
+
+#SQLite is used for lightweight persistence. The schema models buses, routes, drivers, and incidents seperately to maintain normalization.

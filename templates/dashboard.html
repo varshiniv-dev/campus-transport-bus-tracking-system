@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Campus Transport Dashboard</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+
+<body>
+
+    <header>
+        🚍 Campus Transport & Bus Tracking System
+    </header>
+
+    <div class="container">
+
+        <div class="card">
+            <h2>📍 Live Bus Status</h2>
+            <p><strong>Latitude:</strong> {{ location[0] }}</p>
+            <p><strong>Longitude:</strong> {{ location[1] }}</p>
+
+            <p class="status">
+                🚦 Traffic:
+                <span class="
+                {% if traffic == 'Clear' %}traffic-clear{% endif %}
+                {% if traffic == 'Moderate' %}traffic-moderate{% endif %}
+                {% if traffic == 'Heavy' %}traffic-heavy{% endif %}
+            ">
+                    {{ traffic }}
+                </span>
+            </p>
+        </div>
+
+        <div class="card">
+            <h2>⚙ System Status</h2>
+            <p>All systems operational</p>
+        </div>
+
+        <div class="card">
+            <h2>🧪 Simulations</h2>
+            <p>
+                <a href="/simulate/overspeed">Overspeed</a> |
+                <a href="/simulate/accident">Accident</a> |
+                <a href="/simulate/breakdown">Breakdown</a>
+            </p>
+        </div>
+
+    </div>
+
+</body>
+
+</html>
