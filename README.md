@@ -50,41 +50,70 @@ IDE: Visual Studio Code
 CAMPUS_TRANSPORT_SYSTEM/
 │
 ├── app.py                    # Main Flask application (entry point)
+
 ├── config.py                 # Application configuration
+
 ├── README.md                 # Project documentation
+
 ├── requirements.txt          # Python dependencies
+
 │
 ├── venv/                     # Virtual environment
+
 │
 ├── database/                 # Database layer
+
 │   ├── campus.db             # SQLite database file
+
 │   └── db_helper.py          # Database helper functions
+
 │
 ├── models/                   # Data models
+
 │   ├── __init__.py
+
 │   ├── bus.py                # Bus-related data model
+
 │   ├── driver.py             # Driver-related data model
+
 │   ├── incident.py           # Incident data model
+
 │   └── route.py              # Route data model
+
 │
 ├── services/                 # Core business logic
+
 │   ├── __init__.py
+
 │   ├── gps_service.py        # GPS location simulation
+
 │   ├── traffic_service.py    # Traffic condition analysis
+
 │   ├── delay_predictor.py    # Delay prediction logic
+
 │   ├── speed_monitor.py      # Overspeed monitoring
+
 │   └── emergency_security.py # Emergency & safety handling
+
 │
 ├── security/                 # Security-related logic
+
 │   ├── __init__.py
+
 │   └── campus_security.py    # Campus security integration
+
 │
 ├── templates/                # HTML templates
+
 │   ├── dashboard.html        # Main dashboard UI
+
 │   └── alerts.html           # Alerts & simulation UI
+
 │
 └── static/                   # Static files
+
     └── style.css             # CSS styling
+
 
 ---
 
@@ -165,8 +194,11 @@ Web-based system deployment fundamentals
 • Author-
 
 Project Title: Campus Transport & Bus Tracking System
+
 Developed By: Varshini V
+
 Department: Computer Science & Engineering
+
 Project Type: Major Project
 
 ---
