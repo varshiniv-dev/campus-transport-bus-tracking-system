@@ -2,7 +2,7 @@
 
 ---
 
-Project Overview-
+• Project Overview-
 
 The Campus Transport & Bus Tracking System is a web-based application developed using Python and Flask to monitor and manage campus bus transportation in real time.
 The system provides live bus location updates, traffic condition monitoring, delay prediction, and simulation of emergency scenarios such as overspeeding, accidents, and bus breakdowns.
