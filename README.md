@@ -10,7 +10,7 @@ This project is designed to demonstrate how modern software systems can improve 
 
 --- 
 
-#Objectives-
+ • Objectives-
 
 To track campus buses using simulated real-time GPS data
 To monitor traffic conditions and predict delays
@@ -20,7 +20,7 @@ To design a modular and scalable backend architecture
 
 ---
 
-#Key Features-
+• Key Features-
 
 🚍 Live Bus Tracking (Latitude & Longitude simulation)
 🚦 Traffic Condition Analysis (Clear / Moderate / Heavy)
@@ -35,7 +35,7 @@ Bus breakdown handling
 
 ---
 
-#Technologies Used-
+• Technologies Used-
 
 Programming Language: Python 3
 Web Framework: Flask
@@ -45,7 +45,7 @@ IDE: Visual Studio Code
 
 ---
 
-#Project Structure
+• Project Structure
 
 CAMPUS_TRANSPORT_SYSTEM/
 │
@@ -88,7 +88,7 @@ CAMPUS_TRANSPORT_SYSTEM/
 
 ---
 
-#How the System Works?
+• How the System Works?
 
 The Flask server is started using app.py
 GPS service simulates live latitude and longitude values
@@ -99,7 +99,7 @@ Simulation routes trigger alerts for emergency scenarios
 
 ---
 
-#How to Run the Project?
+• How to Run the Project?
 
 1️⃣ Install Dependencies
 Bash:
@@ -112,7 +112,7 @@ http://127.0.0.1:5000/
 
 ---
 
-#Simulation Routes
+• Simulation Routes
 
 These routes simulate real-world transport incidents:
 Overspeed Detection
@@ -124,7 +124,7 @@ Bus Breakdown
 
 ---
 
-#Dashboard Features
+• Dashboard Features
 
 Displays live bus coordinates
 Shows current traffic condition
@@ -133,7 +133,7 @@ Provides links for emergency simulations
 
 ---
 
-#Security & Safety Considerations
+• Security & Safety Considerations
 
 Modular service-based architecture for better isolation
 Simulation-based alerts to prevent false real-world triggers
@@ -141,7 +141,7 @@ Designed for future integration with campus security systems
 
 ---
 
-#Future Enhancements-
+• Future Enhancements-
 
 Integration with real GPS devices
 Real-time map visualization using Google Maps API
@@ -152,7 +152,7 @@ Mobile application support
 
 ---
 
-#Learning Outcomes-
+• Learning Outcomes-
 
 Practical understanding of Flask framework
 Modular Python application design
@@ -162,7 +162,7 @@ Web-based system deployment fundamentals
 
 ---
 
-#Author-
+• Author-
 
 Project Title: Campus Transport & Bus Tracking System
 Developed By: Varshini V
@@ -171,6 +171,6 @@ Project Type: Major Project
 
 ---
 
-#Conclusion
+• Conclusion
 
 This project demonstrates a practical approach to solving real-world campus transportation challenges using Python and Flask. The system is scalable, modular, and designed with future real-time integrations in mind, making it suitable for both academic and real-world applications.
